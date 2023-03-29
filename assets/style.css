@@ -1,55 +1,12 @@
-header{
-    background-color: #2C3E50;
-    height: 6.5rem;
-}
-
-.bg_pink{
-    background-color: pink;
-    border: 2px white solid;
-    height: 3.5rem;
-}
-
-.bg_pink_2{
-    background-color: pink;
-    border: 2px white solid;
-    height: 450px;
-}
-    
-.jumbo{
-    background-color: #1ABC9C;
-    height: 600px;
-}
-
-
-.card-height{
+.portfolio .contents {
     height: 250px;
+    background-color: brown;
 }
 
-.bordò{
-    background-color: #BA4B63;
+.hero img{
+    width: 150px;
 }
 
-.blue{
-    background-color: #1EA4B6;
-}
-
-.black{
-    background-color: black;
-}
-
-.celeste{
-    background-color: #1C83C1;
-}
-
-.blu-scuro{
-    background-color: #0E38B5;
-}
-
-.marroncino{
-    background-color: #CCB2A3;
-}
-
-.child-div{
-    background-color: white;
-    width: 75%;
+header nav{
+    background-color: #2C3E50 !important;
 }
