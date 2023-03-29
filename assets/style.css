@@ -3,6 +3,10 @@ a{                         /*general*/
 
 }
 
+ul{
+    list-style: none;
+}
+
 header nav{                 /* NAV */
     background-color: #2C3E50 !important;
 }
@@ -84,8 +88,61 @@ header nav{                 /* NAV */
         width: 100%;
         display: inline-block;
     }
-     
 }
+
+.about{                                /*ABOUT*/
+    background-color: #1ABC9C;
+}
+
+.about .after{                        /* ABOUT STELLINA */
+    position: relative;
+}
+.about .after::after{
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+}
+
+.about .after::before{
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+}                                     /*FINE ABOUT STELLINA*/
+
+
+.contact .after{                        /* CONTACT STELLINA */
+    position: relative;
+}
+.contact .after::after{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 14%;
+    position: absolute;
+    left: 32%;
+    top: 50%;
+}
+
+.contact .after::before{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 14%;
+    position: absolute;
+    left: 54%;
+    top: 50%;
+}                                     /*FINE CONTACT STELLINA*/
+    
+
+
 
 
 
