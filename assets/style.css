@@ -1,12 +1,96 @@
-.portfolio .contents {
-    height: 250px;
-    background-color: brown;
+a{                         /*general*/
+    text-decoration: none;
+
 }
 
-.hero img{
-    width: 150px;
-}
-
-header nav{
+header nav{                 /* NAV */
     background-color: #2C3E50 !important;
 }
+
+.nav-link{
+    color: white;
+}
+
+.hero{                     /*HERO*/
+    background-color: #1ABC9C;    
+}
+
+.hero img{                          
+    width: 150px;
+    display: inline-block;
+}
+
+.hero a{
+    color: white;
+}
+
+.hero .after{                        /*HERO STELLINA */
+    position: relative;
+}
+.hero .after::after{
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+}
+
+.hero .after::before{
+    content: "";
+    height: 3px;
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+}                                     /*FINE HERO STELLINA*/
+
+
+
+
+.portfolio .contents img{         /*PORTFOLIO*/    
+    width: 100%;
+}
+
+
+.portfolio .after{                        /*PORTFOLIO STELLINA */
+    position: relative;
+}
+.portfolio .after::after{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 10%;
+    position: absolute;
+    left: 37%;
+    top: 50%;
+}
+
+.portfolio .after::before{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 10%;
+    position: absolute;
+    left: 53%;
+    top: 50%;
+}                                     /*FINE PORTFOLIO STELLINA*/
+
+@media (max-width: 575px) {
+
+    .portfolio .contents img {                  /*PORTFOLIO*/
+        width: 100%;
+        display: inline-block;
+    }
+     
+}
+
+
+
+    
+
+
+
+
