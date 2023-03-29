@@ -16,7 +16,8 @@ header nav{                 /* NAV */
 }
 
 .hero{                     /*HERO*/
-    background-color: #1ABC9C;    
+    background-color: #1ABC9C; 
+    margin-top: 3rem;   
 }
 
 .hero img{                          
@@ -139,12 +140,33 @@ header nav{                 /* NAV */
     position: absolute;
     left: 54%;
     top: 50%;
-}                                     /*FINE CONTACT STELLINA*/
+}                                /*FINE CONTACT STELLINA*/
     
 
+.contact form input, textarea{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+}
 
+.contact form textarea{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+    height: 200px;
+}
 
+.contact form .btn{
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
 
+                           /*FOOTER*/
+.about{                                 
+    background-color: #3A546D;
+}
 
     
 
